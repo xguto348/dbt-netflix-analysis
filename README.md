@@ -1,15 +1,32 @@
-Welcome to your new dbt project!
+# 🎬 MovieLens Data Pipeline (dbt + Snowflake + AWS + Looker)
 
-### Using the starter project
+End-to-end data project building a modern data stack using dbt, Snowflake, AWS S3, and Looker.
 
-Try running the following commands:
-- dbt run
-- dbt test
+---
 
+## 📌 Overview
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+This project demonstrates how to build a complete analytics pipeline:
+
+- Raw data ingestion from AWS S3
+- Data transformation using dbt
+- Data warehouse modeling in Snowflake
+- Business insights visualization using Looker
+
+---
+
+## 🏗️ Architecture
+
+[S3] → [Snowflake] → [dbt] → [Looker Dashboard]
+
+- **AWS S3**: Stores raw CSV files (MovieLens dataset)
+- **Snowflake**: Data warehouse
+- **dbt**: Data transformation & modeling
+- **Looker**: Dashboard & business insights
+
+---
+
+## 👨‍💻 Author
+
+Luiz Azevedo  
+Data & Analytics
