@@ -30,6 +30,9 @@ This project demonstrates how to build a complete analytics pipeline:
 
 The project follows a layered approach inspired by modern analytics engineering practices:
 
+## 📁 Project Structure
+
+```text
 project_root/
 ├── models/
 │   ├── staging/                 # Data cleaning & standardization
@@ -47,6 +50,7 @@ project_root/
 ├── macros/                      # Reusable SQL macros
 ├── snapshots/                   # Slowly changing dimensions (SCD)
 ├── dbt_project.yml              # Project configuration
+```
 
 ---
 
