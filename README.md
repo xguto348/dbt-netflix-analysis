@@ -33,6 +33,8 @@ The project follows a layered approach inspired by modern analytics engineering 
 project_root/
 ├── models/
 │   ├── staging/                 # Data cleaning & standardization
+│   │   ├── stg_movies
+│   │   ├── stg_ratings
 │   │
 │   ├── marts/                   # Final analytical layer (star schema)
 │   │   ├── dim/                 # Dimension tables
